@@ -27,15 +27,42 @@ It can open websites, play music, and respond to predefined voice commands.
 Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-
- Note:
+```
+### Note:
 You also need PyAudio for speech recognition.
 
-## 🪟 On Windows:
+### 🪟 On Windows:
+```bash
 pip install pipwin
 pipwin install pyaudio
+```
 
----
-On Linux/macOS:
+### 🐧 On Linux/macOS:
+```bash
 sudo apt-get install portaudio19-dev
 pip install pyaudio
+```
+
+---
+
+## ▶️ Usage:
+
+### 1. Clone this repository:
+```bash
+git clone https://github.com/om-nagariya/Jarvis-Voice-Assistance.git
+cd jarvis-assistant
+
+```
+
+### 2. Run the assistant:
+```bash
+python main.py
+```
+
+### 3. Say "Jarvis" to activate, then speak your command.
+#### Example commands:
+
+**• "_Open YouTube_"**<br>
+**• "_Open GitHub_"**<br>
+**• "_Play gigachad_"**<br>
+
